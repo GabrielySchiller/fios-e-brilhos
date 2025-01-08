@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    position: relative;
+    font-family:  "Josefin Sans", sans-serif;
+    overflow-x: hidden;
+  
+}
+
+
+.cabecalho{
+    z-index: 4;
+    position: fixed;
+    width: 100%;
+    height: 82px;
+    background-color: #5aece2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.607);
+}
+
+.logo{
+    margin-left: 15px;
+}
+
+.botoes-naveg{
+    display: flex;
+    gap: 15px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.botoes-naveg a{
+    font-size: 16px;
+    color: aliceblue;
+    background-color: #F74F8C;
+    padding: 8px 20px;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    border: transparent 2px solid;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.592);
+}
+
+.botoes-naveg a:hover{
+    transition: 0.5s;
+    background-color: #fb8cb5;
+    border: #ffffff 2px solid;
+    color: #ffffff;
+    
+}
+
+#home{
+    width: 100%;
+    height: 100vh;
+   background-image: url(../img/shiny-white-glitter-textured-background.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 0%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-bottom: #ffffff solid 8px;
+   
+
+  
+   
+}
+
+.texto-home{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 230px;
+    margin-top: 100px;
+}
+
+.texto-home h1{
+    position: absolute;
+    margin-top: -50px ;
+    font-family: 'Bebas Neue';
+    font-size: 120px;
+    color: #53cad0;
+    letter-spacing: 2.5px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.722); 
+}
+
+
+.texto-home p{
+   font-family:  "Dancing Script";
+    font-size: 32px;
+    color: rgb(244, 65, 130);
+    margin-left: -90px;
+    margin-top: 350px;
+}
+
+.imagem-home img{
+    position: relative;
+    bottom: 0;
+    z-index: 0;
+    margin-top: 173px;
+    width: 1000px;
+}
+
+#produtos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: start;
+    /* background-color: #fb8cb5; */
+    /* background-color: #c4f9fc; */
+    background-color: rgb(211, 254, 254);
+    gap: 20px;
+   
+}
+
+.subtitulo-produtos{
+    color: rgb(230, 22, 126);
+    font-family:  "Dancing Script";
+    /* font-family: "Pacifico"; */
+    font-weight: 1000;
+    margin-top: 130px;
+    margin-bottom: 70px;
+    font-size: 35px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.659); 
+    letter-spacing: 5px;
+}
+
+
+.produtos-venda{
+    max-width: 96%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.produto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 2px;
+    padding: 10px;
+    gap: 00px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.725); 
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.produto img{
+    width: 330px;
+    height: 180px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.p-encomendas{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: #f8a9d4;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.p-encomendas a{
+    text-decoration: underline;
+    color: #000000;
+}
+
+.informacoes-vendas{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.titulo-produto{
+    font-size: 23px;
+    font-family: 'Bebas Neue';
+    letter-spacing: 0.5px;
+    color: #1e1e1e;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.tamanho{
+    font-size: 16px;
+    text-align: center;
+}
+
+.preco{
+    margin-top: 15px;
+    font-size: 25px ;
+    color: rgb(22, 156, 118);
+    text-align: center;
+    
+}
+
+.botao{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    /* background-color: #a9f3f8; */
+    background-color: #fcc3d8ce;
+     /* border: 3px solid #53cad0; */
+     border: #f52799 3px solid;
+    border-radius: 5px;
+   
+   
+}
+
+
+.botao:hover{
+    transition: 1s;
+    /* border: 3px solid #74d7f5; */
+    border: #f52799 3px solid;
+    background-color: #e4739d;
+
+}
+
+.btn-selecionar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px; 
+    background-color: transparent;
+    color: #202020;
+    font-size: 16px;
+    font-family: 'Bebas Neue';
+    text-shadow: 0 2px 5px rgb(126, 126, 126);
+    letter-spacing: 2.5px;
+    padding: 5px 10px;
+}
+
+.borda-topo-conheca{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 900px;
+}
+
+.borda-topo-conheca img{
+    width: 300px;
+}
+
+#conheca-nos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    height: 90vh;
+    background-color: #e4739d;
+
+}
+
+.textos-gerais-conheca{
+    margin-top: 100px;
+    position: absolute;
+    top: 250;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+    
+
+.subtitulo-conheca{
+    font-family: 'Bebas Neue';
+    color: #ffffff;
+    font-size: 50px;
+    text-shadow: 0 2px 5px rgb(3, 3, 3); 
+    letter-spacing: 3px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.textos-conheca{
+    margin: 0 auto;
+    text-align: justify;
+    max-width: 70%;
+    line-height: 25px;
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.701); 
+}
+
+.rodape {
+    color: #f7f7f7;
+    background-color: #4abdc1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px;
+   
+
+}
+
+.informacoes-rodape{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.rodape p a{
+    text-decoration: underline;
+    color: #f7f7f7;
+
+}
