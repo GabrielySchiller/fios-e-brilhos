@@ -1,8 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Pacifico&display=swap');
+
 
 *{
     padding: 0;
@@ -19,11 +16,15 @@ body{
 }
 
 
+
+
+/* CABECALHO */
+
 .cabecalho{
     z-index: 4;
     position: fixed;
     width: 100%;
-    height: 82px;
+    height: 80px;
     background-color: #5aece2;
     display: flex;
     align-items: center;
@@ -37,16 +38,16 @@ body{
 
 .botoes-naveg{
     display: flex;
-    gap: 15px;
+    gap: 20px;
     margin-right: 20px;
     align-items: center;
 }
 
 .botoes-naveg a{
-    font-size: 16px;
+    font-size: 15px;
     color: aliceblue;
     background-color: #F74F8C;
-    padding: 8px 20px;
+    padding: 8px 18px;
     border-radius: 5px;
     text-align: center;
     align-items: center;
@@ -62,6 +63,10 @@ body{
     
 }
 
+
+
+/* HOME */
+
 #home{
     width: 100%;
     height: 100vh;
@@ -71,12 +76,8 @@ body{
    background-position: 0%;
    display: flex;
    align-items: center;
-   justify-content: space-between;
+   /* justify-content: space-between; */
    border-bottom: #ffffff solid 8px;
-   
-
-  
-   
 }
 
 .texto-home{
@@ -109,12 +110,17 @@ body{
 }
 
 .imagem-home img{
-    position: relative;
-    bottom: 0;
+    position: absolute;
+    bottom: auto;
     z-index: 0;
-    margin-top: 173px;
-    width: 1000px;
+    margin-top: -155px;
+    width: 980px;
+    right: 0;
 }
+
+
+
+/* PRODUTOS */
 
 #produtos{
     width: 100%;
@@ -257,6 +263,11 @@ body{
     padding: 5px 10px;
 }
 
+
+
+
+/* CONHECA-NOS */
+
 .borda-topo-conheca{
     position: relative;
     display: flex;
@@ -269,8 +280,10 @@ body{
     width: 300px;
 }
 
+
 #conheca-nos{
     width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -299,7 +312,7 @@ body{
     font-size: 50px;
     text-shadow: 0 2px 5px rgb(3, 3, 3); 
     letter-spacing: 3px;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-bottom: 50px;
 }
 
@@ -312,6 +325,12 @@ body{
     color: rgb(255, 255, 255);
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.701); 
 }
+
+
+
+
+
+/* RODAPE */
 
 .rodape {
     color: #f7f7f7;
