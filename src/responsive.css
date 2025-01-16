@@ -103,6 +103,12 @@
         height: 950px;
     }
 
+
+    .texto-home h1{
+        font-size: 88px;
+
+    }
+
     .subtitulo-produtos{
         text-align: center;
         margin-left: 50px;
@@ -180,6 +186,8 @@
 @media ( max-width:520px){
 
     .cabecalho{
+        width: 100%;
+        justify-content: center;
         background-color: #5aece2;
         box-shadow: none;
         height: auto;
@@ -207,8 +215,11 @@
     }
 
     .texto-home{
+        gap: -200px;
         width: 100%;
        margin-left: 50px;
+       margin-top: 800px;
+
       
     }
 
@@ -224,7 +235,7 @@
     }
 
     .texto-home p{
-        margin-bottom: 50px;
+        margin-bottom: 500px;
     }
 
     .subtitulo-produtos{
