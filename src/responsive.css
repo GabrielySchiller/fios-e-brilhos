@@ -186,20 +186,21 @@
 @media ( max-width:520px){
 
     .cabecalho{
+        left: 0;
         width: 100%;
         justify-content: center;
         background-color: #5aece2;
         box-shadow: none;
-        height: auto;
+        height: 140px;
         flex-direction: column;
 
     }
 
 
     .logo img{
-        width: 70px ;
+        width: 75px ;
         margin-top: 10px;
-        margin-bottom: -3px;
+        margin-bottom: -23px;
     }
     
     .botoes-naveg a{
@@ -215,10 +216,11 @@
     }
 
     .texto-home{
+        flex-direction: column;
         gap: -200px;
         width: 100%;
        margin-left: 50px;
-       margin-top: 800px;
+       margin-top: 300px;
 
       
     }
@@ -231,11 +233,12 @@
        flex-wrap: wrap;
         width: 100%;
         font-size: 65px;
-        /* margin-left: -100px; */
     }
 
     .texto-home p{
-        margin-bottom: 500px;
+        margin-bottom: 200px;
+        height: 20px;
+        margin: 0px;
     }
 
     .subtitulo-produtos{
