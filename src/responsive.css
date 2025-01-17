@@ -11,19 +11,19 @@
 @media ( min-width:1800px){
 
     .imagem-home img{
-        width: 1200px;
+        width: 1000px;
         
     }
 
     #conheca-nos{
-        height: 150vh;
+        height: 130vh;
     }
 
     .texto-home h1{
         left: 0;
         margin-left: 100px;
         margin-top: 350px ;
-        font-size: 130px;
+        font-size: 110px;
     }
 
     .texto-home p{
@@ -41,6 +41,12 @@
         width: 950px;
         
     }
+
+    .texto-home p{
+        margin: 0px;
+        width: 100%;
+        margin-top: 80px;
+    }
 }
 
 @media ( max-width:1000px){
@@ -51,13 +57,13 @@
     }
 
     .texto-home{
-        justify-content: right;
+        justify-content: left;
         width: 100%;
     }
 
     .texto-home p{
-        
-        text-align: center;
+        width:100%;
+        text-align: left;
         margin-left: 20px;
     }
 
@@ -104,6 +110,10 @@
     }
 
 
+    br{
+        display: none;
+    }
+
     .texto-home h1{
         font-size: 88px;
 
@@ -133,55 +143,29 @@
         flex-direction: column;
     }
 
-
-    /* .texto-home{
-        width: 100%;
-        font-size: 30px;
-        gap: 10px;
-        margin-left: 230px; 
-     margin-top: 100px;
-    } */
-
     .texto-home{
         flex-direction: column;
-        gap: 100px;
+        gap: 70px;
         width: 100%;
        margin-left: 50px;
-       margin-top: -100px;
+       margin-top: 80px;
 
       
     }
-    
+
+    br{
+        display: none;
+    }
 
     .texto-home h1{
-
-        white-space: normal; /* Permite quebras de linha quando necessário */
-      word-wrap: break-word; /* Garante que palavras longas sejam quebradas */
-      overflow-wrap: break-word; /* Compatibilidade adicional */
-       flex-wrap: wrap;
         width: 100%;
-        font-size: 65px;
+        font-size: 80px;
     }
 
     .texto-home p{
         height: 20px;
         margin: 0px;
     }
-    /* .texto-home h1{
-        width: 100%;
-        margin-top: -300px ;
-        font-size: 100px;
-    }
-    
-    
-    .texto-home p{
-        width: 100%;
-        font-size: 28px;
-        margin: 0px;
-        margin-top: 350px;
-        text-align: center;
-        padding: 5px;
-    } */
 
     .imagem-home{
         width: 100%;
@@ -214,9 +198,10 @@
         left: 0;
         width: 100%;
         justify-content: center;
-        background-color: #5aece2;
+        justify-items: center;
+        text-align: center;
         box-shadow: none;
-        height: 140px;
+        height: 130px;
         flex-direction: column;
 
     }
@@ -225,7 +210,7 @@
     .logo img{
         width: 75px ;
         margin-top: 10px;
-        margin-bottom: -23px;
+        margin-bottom: -30px;
     }
     
     .botoes-naveg a{
@@ -236,14 +221,15 @@
     }
 
     .botoes-naveg{
-        width: 100%;
+        max-width: 100%;
         justify-content: center;
-        gap: 2px;
+        justify-items: center;
+        gap: 5px;
         margin-top: 35px;
     }
 
     #home{
-        height: 150vh;
+        height: 130vh;
     }
 
     .texto-home{
@@ -259,7 +245,7 @@
     .texto-home h1{
 
         width: 100%;
-        font-size: 65px;
+        font-size: 80px;
     }
 
     .texto-home p{
@@ -291,10 +277,6 @@
     #conheca-nos{
         height: 1000px;
 
-    }
-
-    .subtitulo-conheca{
-        font-size: 45px;
     }
 
     .textos-conheca{
@@ -335,7 +317,7 @@
        overflow-wrap: break-word; /* Compatibilidade adicional */
         flex-wrap: wrap;
         width: 100%;
-        font-size: 70px;
+        font-size: 80px;
     }
 
     .texto-home p{
@@ -355,7 +337,7 @@
     }
 
     .subtitulo-conheca{
-        font-size: 35px;
+        font-size: 33px;
     }
 
     .textos-conheca{
@@ -370,10 +352,11 @@
 @media ( max-width:380px){
 
     .cabecalho{
-        height: auto;
+        height: 150px;
        display: flex; 
        flex-direction: row;
        align-items: center;
+       gap: 50px;
 
     }
 
@@ -394,28 +377,29 @@
         margin-bottom: 5px;
     }
 
+    #home{
+        height: 130vh;
+    }
+
     .texto-home{
         width: 100%;
-        font-size: 20px;
         gap: 10px;
-        margin-left: 90px; 
+        margin-left: 50px; 
      margin-top: 100px;
     }
     
     .texto-home h1{
-        margin-top: -500px ;
-        margin-right: 100px;
+        width: 100%;
+        white-space: normal; /* Permite quebras de linha quando necessário */
+        word-wrap: break-word; /* Garante que palavras longas sejam quebradas */
+        overflow-wrap: break-word; /* Compatibilidade adicional */
         font-size: 80px;
     }
     
     
     .texto-home p{
-        display: none;
-        width: 350px;
+        width: 100%;
         font-size: 25px;
-        margin-top: 150px;
-      margin-right: 200px;
-      margin-left: 0px;
     }
 
 
