@@ -134,15 +134,40 @@
     }
 
 
-    .texto-home{
+    /* .texto-home{
         width: 100%;
         font-size: 30px;
         gap: 10px;
         margin-left: 230px; 
      margin-top: 100px;
+    } */
+
+    .texto-home{
+        flex-direction: column;
+        gap: 100px;
+        width: 100%;
+       margin-left: 50px;
+       margin-top: -100px;
+
+      
     }
     
+
     .texto-home h1{
+
+        white-space: normal; /* Permite quebras de linha quando necessário */
+      word-wrap: break-word; /* Garante que palavras longas sejam quebradas */
+      overflow-wrap: break-word; /* Compatibilidade adicional */
+       flex-wrap: wrap;
+        width: 100%;
+        font-size: 65px;
+    }
+
+    .texto-home p{
+        height: 20px;
+        margin: 0px;
+    }
+    /* .texto-home h1{
         width: 100%;
         margin-top: -300px ;
         font-size: 100px;
@@ -156,7 +181,7 @@
         margin-top: 350px;
         text-align: center;
         padding: 5px;
-    }
+    } */
 
     .imagem-home{
         width: 100%;
@@ -217,10 +242,10 @@
 
     .texto-home{
         flex-direction: column;
-        gap: -200px;
+        gap:90px;
         width: 100%;
        margin-left: 50px;
-       margin-top: 300px;
+       margin-top: 100px;
 
       
     }
@@ -236,7 +261,6 @@
     }
 
     .texto-home p{
-        margin-bottom: 200px;
         height: 20px;
         margin: 0px;
     }
@@ -274,7 +298,7 @@
 
 
 
-@media ( max-width:410px){
+@media ( max-width:412px){
 
     .imagem-home img{
         width: 390px;
@@ -287,21 +311,25 @@
 
     .texto-home{
         width: 100%;
-        justify-content: right;
-        width: 100%;
-       margin-left: 50px;
+       gap: 50px;
+      margin-left: 50px;
+      margin-top: 90px;
       
     }
 
     .texto-home h1{
-       flex-wrap: wrap;
+       white-space: normal; /* Permite quebras de linha quando necessário */
+       word-wrap: break-word; /* Garante que palavras longas sejam quebradas */
+       overflow-wrap: break-word; /* Compatibilidade adicional */
+        flex-wrap: wrap;
         width: 100%;
         font-size: 70px;
     }
 
     .texto-home p{
         width: 100%;
-        margin-left: 0px;
+        height: 20px;
+        margin: 0px;
     }
 
     .produto img{
