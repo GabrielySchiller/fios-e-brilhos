@@ -133,7 +133,13 @@
         max-width: 100%;
         justify-content: center;
         align-items: center;
+        gap: 20px;
 
+    }
+    .botoes-naveg{
+       max-width: 100%; 
+       justify-content: center;
+       
     }
 
     .botoes-naveg a{
@@ -211,9 +217,24 @@
         box-shadow: none;
         height: 130px;
         flex-direction: column;
+        gap: 0px;
 
     }
 
+    .botoes-naveg{
+        max-width: 100%; 
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+     }
+
+     .logo{
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+     }
 
     .logo img{
         width: 75px ;
