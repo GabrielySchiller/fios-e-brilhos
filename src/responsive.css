@@ -86,10 +86,6 @@
         display: none;
     }
 
-    #home{
-        height: 100vh;
-    }
-
     .imagem-home{
         width: 100%;
     }
@@ -102,6 +98,10 @@
     #conheca-nos{
         height: 1000px;
 
+    }
+
+    .textos-conheca{
+        height: fit-content;
     }
 
 }
@@ -138,9 +138,6 @@
 
 @media ( max-width:586px){
 
-    body{
-        position: relative;
-    }
 
     .cabecalho{
         max-width: 100%;
@@ -167,7 +164,7 @@
     .home{
         position: relative;
         width: 100%;
-        height: 100vh;
+        height: auto;
         flex-direction: column;
     }
 
@@ -222,17 +219,12 @@
 
 @media ( max-width:520px){
 
-    body{
-        position: relative;
-    }
 
     .cabecalho{
-        position: fixed;
         top: 0;
         left: 0;
         width: 100vw ;
         justify-content: center;
-        justify-items: center;
         text-align: center;
         box-shadow: none;
         height: 130px;
@@ -278,7 +270,7 @@
     }
 
     #home{
-        height: 120vh;
+        height: 100vh;
     }
 
     .texto-home{
