@@ -134,6 +134,7 @@
         justify-content: center;
         align-items: center;
         gap: 20px;
+        position: fixed;
 
     }
     .botoes-naveg{
@@ -209,8 +210,9 @@
 @media ( max-width:520px){
 
     .cabecalho{
+        position: fixed;
         left: 0;
-        width: 50%;
+        width: 100%;
         justify-content: center;
         justify-items: center;
         text-align: center;
@@ -222,7 +224,7 @@
     }
 
     .botoes-naveg{
-        max-width: 50%; 
+        max-width: 100%; 
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -230,7 +232,7 @@
      }
 
      .logo{
-        max-width: 50%;
+        max-width: 100%;
         justify-content: center;
         align-items: center;
         text-align: center;
