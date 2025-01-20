@@ -21,11 +21,12 @@ body{
 /* CABECALHO */
 
 .cabecalho{
+    background-color: brown;
     z-index: 4;
     position: fixed;
     width: 100%;
     height: 80px;
-    background-color: #5aece2;
+    /* background-color: #5aece2; */
     display: flex;
     align-items: center;
     justify-content: space-between;
