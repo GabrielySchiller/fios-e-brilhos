@@ -106,12 +106,11 @@ body{
 
 .texto-home p{
     z-index: 1;
-    width: 50%;
+    width: 100%;
    font-family:  "Dancing Script";
     font-size: 27px;
     color: rgb(244, 65, 130);
     margin-top: 20px;
-    margin-left: -690px;
     font-weight: 900;
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.274);
     letter-spacing: 0.5px;
