@@ -38,7 +38,9 @@ body{
 }
 
 .botoes-naveg{
+    width: 100%;
     display: flex;
+    justify-content: right;
     gap: 20px;
     margin-right: 20px;
     align-items: center;
