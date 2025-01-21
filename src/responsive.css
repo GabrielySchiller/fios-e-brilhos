@@ -123,6 +123,10 @@
         display: none;
     }
 
+    #home{
+        height: auto;
+    }
+
     .texto-home h1{
         font-size: 88px;
 
@@ -337,10 +341,11 @@
     }
 
     .texto-home{
+        align-items: center;
         width: 100%;
        gap: 50px;
       margin-left: 50px;
-      margin-top: 50px;
+      margin-top: 40px;
       
     }
 
@@ -355,6 +360,7 @@
         flex-wrap: wrap;
         width: 100%;
         font-size: 80px;
+        margin-top: -40px;
     }
 
     .texto-home p{
@@ -389,7 +395,7 @@
 @media ( max-width:380px){
 
     .cabecalho{
-        height: 150px;
+        height: 155px;
        display: flex; 
        flex-direction: row;
        align-items: center;
@@ -399,7 +405,7 @@
 
     .botoes-naveg{
         flex-direction: column;
-        margin-bottom: 5px;
+        margin-bottom: 13px;
         margin-top: 18px;
      }
 
