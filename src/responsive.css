@@ -51,6 +51,10 @@
 
 @media ( max-width:1000px){
 
+    #home{
+        height: 100vh;
+    }
+
     .imagem-home img{
         width: 700px;
         
@@ -124,7 +128,7 @@
     }
 
     #home{
-        height: auto;
+        height: 100vh;
     }
 
     .texto-home h1{
@@ -135,6 +139,18 @@
     .subtitulo-produtos{
         text-align: center;
         margin-left: 50px;
+    }
+
+    .produto img{
+        width: 300px;
+    }
+}
+
+@media ( max-width:693px){
+
+    .produto img{
+        width: 280px;
+        height: 170px;
     }
 }
 
@@ -212,6 +228,11 @@
 
     span{
         display: none;
+    }
+
+    .produto img{
+        width: 200px;
+        height: 125px;
     }
 
     #conheca-nos{
