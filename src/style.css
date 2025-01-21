@@ -185,8 +185,8 @@ body{
 }
 
 .produto img{
-    width: 330px;
-    height: 180px;
+    width: 300px;
+    height: 150px;
     border-radius: 5px;
     margin-bottom: 15px;
 }
@@ -240,9 +240,7 @@ body{
     align-items: center;
     text-align: center;
     margin-top: 20px;
-    /* background-color: #a9f3f8; */
     background-color: #fcc3d8ce;
-     /* border: 3px solid #53cad0; */
      border: #f52799 3px solid;
     border-radius: 5px;
    
@@ -252,7 +250,6 @@ body{
 
 .botao:hover{
     transition: 1s;
-    /* border: 3px solid #74d7f5; */
     border: #f52799 3px solid;
     background-color: #e4739d;
 
