@@ -94,6 +94,8 @@
         width: 100%;
     }
 
+
+
     .imagem-home img{
         width: 600px;
         
@@ -146,17 +148,11 @@
     }
 }
 
-@media ( max-width:693px){
-
-    .produto img{
-        width: 280px;
-        height: 170px;
-    }
-}
 
 
 
-@media ( max-width:586px){
+
+@media ( max-width:694px){
 
 
     .cabecalho{
@@ -390,9 +386,18 @@
         margin: 0px;
     }
 
+    .produto{
+        width:160px ;
+        height: 350px;
+    }
+
     .produto img{
-        width:290px ;
-        height: 160px;
+        width:145px ;
+        height: 100px;
+    }
+
+    .botao{
+        width: 130px;
     }
 
     #conheca-nos{
