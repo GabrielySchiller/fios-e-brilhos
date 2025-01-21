@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Pacifico&display=swap');
 
+#home::before{
+    content: "";
+    background-image: url(../img/shiny-white-glitter-textured-background.jpg);
+    display: none;
+}
 
 *{
     padding: 0;
@@ -83,6 +88,7 @@ body{
    justify-content: center;
    border-bottom: #ffffff solid 8px;
 }
+
 
 .texto-home{
     width: 100%;
