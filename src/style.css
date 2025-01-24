@@ -2,7 +2,7 @@
 
 #home::before{
     content: "";
-    background-image: url(../img/shiny-white-glitter-textured-background.jpg);
+    background-image: url(../img/fundo-home.jpg);
     display: none;
 }
 
