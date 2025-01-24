@@ -142,8 +142,6 @@ body{
     align-items: center;
     flex-direction: column;
     justify-items: start;
-    /* background-color: #fb8cb5; */
-    /* background-color: #c4f9fc; */
     background-color: rgb(211, 254, 254);
     gap: 20px;
    
@@ -152,7 +150,6 @@ body{
 .subtitulo-produtos{
     color: rgb(230, 22, 126);
     font-family:  "Dancing Script";
-    /* font-family: "Pacifico"; */
     font-weight: 1000;
     margin-top: 130px;
     margin-bottom: 70px;
@@ -168,6 +165,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items:center ;
     gap: 25px;
 }
 
@@ -213,6 +211,8 @@ body{
 .informacoes-vendas{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     gap: 20px;
 }
@@ -240,26 +240,30 @@ body{
 }
 
 .botao{
-    width: 200px;
+    width: 190px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin-top: 20px;
-    background-color: #fcc3d8ce;
-     border: #f52799 3px solid;
+    background-color: #fea9c8ce;
+     border: #fd4cad 3px solid;
     border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.725); 
    
    
 }
 
 
 .botao:hover{
-    transition: 1s;
+    transition: 0.5s;
     border: #f52799 3px solid;
-    background-color: #e4739d;
+    background-color: #fb82ae;
+    color: white;
 
 }
+
+
 
 .btn-selecionar{
     display: flex;
@@ -267,13 +271,17 @@ body{
     justify-content: center;
     gap: 5px; 
     background-color: transparent;
-    color: #202020;
+    color: #000000;
     font-size: 16px;
     font-family: 'Bebas Neue';
-    text-shadow: 0 2px 5px rgb(126, 126, 126);
     letter-spacing: 2.5px;
-    padding: 5px 10px;
+    padding: 5px ;
 }
+
+
+
+
+
 
 
 
