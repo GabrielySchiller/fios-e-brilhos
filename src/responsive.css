@@ -126,7 +126,7 @@
     }
 
     #conheca-nos{
-        height: 950px;
+        height: 100vh;
     }
 
 
@@ -237,7 +237,7 @@
     }
 
     #conheca-nos{
-        height: 1000px;
+        height: 100vh;
     }
 }
 
@@ -342,7 +342,7 @@
     }
 
     #conheca-nos{
-        height: 1000px;
+        height: 100vh;
 
     }
 
@@ -397,7 +397,7 @@
     }
 
     #conheca-nos{
-        height: 1000px;
+        height: 100vh;
 
     }
 
@@ -485,7 +485,7 @@
     }
 
     #conheca-nos{
-        height: 1000px;
+        height: 100vh;
 
     }
 
@@ -509,7 +509,7 @@
 
 @media ( max-width:318px){
     #conheca-nos{
-        height: 1000px;
+        height: 100vh;
     }
 
     .produto{
