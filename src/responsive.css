@@ -431,7 +431,7 @@
 @media ( max-width:380px){
 
     .cabecalho{
-        height: 140px;
+        height: 142px;
        display: flex; 
        flex-direction: row;
        align-items: center;
@@ -442,25 +442,25 @@
 
     .botoes-naveg{
         flex-direction: column;
-        margin-bottom: 20px;
-        margin-top: 20px;
-        margin-right: -25px;
+        margin-bottom: 30px;
+        margin-top: 35px;
+        margin-right: -35px;
      }
 
      .botoes-naveg a{
         font-size: 13px;
         margin-bottom: 4px;
-        width: 105px;
+        width: 98px;
      }
 
      .logo img{
-        width: 85px ;
+        width: 90px ;
         margin-top: 18px;
         margin-bottom: 5px;
     }
 
     #home{
-        height: calc(100vh + 70px) ;
+        height: calc(100vh + 75px) ;
     }
 
     .texto-home{
@@ -509,7 +509,7 @@
     .subtitulo-conheca{
         margin-top: -30px;
         font-size: 35px;
-        margin-bottom: -5px;
+        margin-bottom: -3px;
     }
 
     .textos-conheca{
