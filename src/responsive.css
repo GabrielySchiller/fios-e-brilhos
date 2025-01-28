@@ -362,6 +362,7 @@
 
 @media ( max-width:412px){
 
+
     .imagem-home img{
         width: 390px;
         
@@ -435,13 +436,15 @@
        flex-direction: row;
        align-items: center;
        gap: 50px;
+       top: 0;
 
     }
 
     .botoes-naveg{
         flex-direction: column;
-        margin-bottom: 15px;
-        margin-top: 18px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-right: -25px;
      }
 
      .botoes-naveg a{
@@ -499,13 +502,14 @@
     }
 
     #conheca-nos{
-        height: calc(100vh + 95px) ;
+        height: calc(100vh + 110px) ;
 
     }
 
     .subtitulo-conheca{
         margin-top: -30px;
         font-size: 35px;
+        margin-bottom: -5px;
     }
 
     .textos-conheca{
@@ -524,7 +528,7 @@
 
 @media ( max-width:318px){
     #conheca-nos{
-        height: calc(100vh + 80px) ;
+        height: calc(100vh + 90px) ;
     }
 
     .produto{
@@ -553,6 +557,6 @@
  
         
         #conheca-nos{
-            height: calc(110vh + 110px) ;
+            height: calc(110vh + 120px) ;
         }
     }
