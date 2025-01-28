@@ -366,6 +366,9 @@
         width: 390px;
         
     }
+    #home{
+        height: calc(100vh + 10px) ;
+    }
 
     .texto-home{
         align-items: center;
@@ -407,7 +410,7 @@
     }
 
     #conheca-nos{
-        height: calc( 100vh + 15px);
+        height: calc( 100vh + 35px);
 
     }
 
@@ -453,14 +456,14 @@
     }
 
     #home{
-        height: 100vh;
+        height: calc(100vh + 70px) ;
     }
 
     .texto-home{
         width: 100%;
         gap: 10px;
         margin-left: 50px; 
-     margin-top: 40px;
+     margin-top: 45px;
     }
     
     .texto-home h1{
@@ -495,7 +498,7 @@
     }
 
     #conheca-nos{
-        height: calc(100vh + 50px) ;
+        height: calc(100vh + 80px) ;
 
     }
 
@@ -519,7 +522,7 @@
 
 @media ( max-width:318px){
     #conheca-nos{
-        height: 100vh;
+        height: calc(100vh + 80px) ;
     }
 
     .produto{
@@ -533,3 +536,21 @@
 
     
 }
+    @media ( max-width:310px){
+
+        .cabecalho{
+            gap: 10px;
+        }
+
+        #home{
+            height: calc(100vh + 60px) ;
+        }
+        .texto-home{
+            margin-left: 20px;
+        }
+ 
+        
+        #conheca-nos{
+            height: calc(110vh + 100px) ;
+        }
+    }
