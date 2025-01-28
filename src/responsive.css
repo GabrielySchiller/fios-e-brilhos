@@ -430,7 +430,7 @@
 @media ( max-width:380px){
 
     .cabecalho{
-        height: 155px;
+        height: 140px;
        display: flex; 
        flex-direction: row;
        align-items: center;
@@ -445,12 +445,13 @@
      }
 
      .botoes-naveg a{
+        font-size: 13px;
         margin-bottom: 4px;
-        width: 110px;
+        width: 105px;
      }
 
      .logo img{
-        width: 100px ;
+        width: 85px ;
         margin-top: 18px;
         margin-bottom: 5px;
     }
@@ -498,7 +499,7 @@
     }
 
     #conheca-nos{
-        height: calc(100vh + 70px) ;
+        height: calc(100vh + 90px) ;
 
     }
 
