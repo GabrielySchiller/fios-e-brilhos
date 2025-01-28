@@ -431,7 +431,7 @@
 @media ( max-width:380px){
 
     .cabecalho{
-        height: 142px;
+        height: 145px;
        display: flex; 
        flex-direction: row;
        align-items: center;
@@ -443,7 +443,7 @@
     .botoes-naveg{
         flex-direction: column;
         margin-bottom: 30px;
-        margin-top: 35px;
+        margin-top: 40px;
         margin-right: -35px;
      }
 
