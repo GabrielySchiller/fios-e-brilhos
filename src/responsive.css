@@ -499,11 +499,12 @@
     }
 
     #conheca-nos{
-        height: calc(100vh + 90px) ;
+        height: calc(100vh + 95px) ;
 
     }
 
     .subtitulo-conheca{
+        margin-top: -30px;
         font-size: 35px;
     }
 
@@ -552,6 +553,6 @@
  
         
         #conheca-nos{
-            height: calc(110vh + 100px) ;
+            height: calc(110vh + 110px) ;
         }
     }
